@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* 共通 */
+*{
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* header */
+header{
+    height: 88px;
+    width: 100%;
+    background-color: rgba(34,49,52,0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo{
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(241, 235, 235, 0.707);
+    padding: 30px 30px;
+    cursor: pointer;
+}
+
+.header_content_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin-left: 30px;
+    float: right;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgba(241, 235, 235, 0.707);
+}
+
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li.current a{
+    color: #8c6239;
+}
+
+/* content */
+.introduction{
+    color: rgba(224, 81, 62, 0.551);
+    padding:  80px 20px 80px 20px;
+    border-bottom: 1px solid silver;
+}
+
+.introduction h2{
+    color: rgba(113, 79, 226, 0.551);
+}
+
+button{
+    padding: 8px 20px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgba(255,0,0,0.25);
+    margin: auto;
+    border: none;
+}
+
+button:hover{
+    background: #747373b9;
+}
+
+.btn a{ 
+    padding: 8px 20px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgba(255,0,0,0.25);
+    margin: auto;
+}
+
+
+.function-tutorial{
+    background-color: rgba(233, 223, 191, 0.551);
+}
+
+.function-tutorial h2{
+    color: rgba(28, 54, 224, 0.728);
+}
+
+.function-tutorial p{
+    font-weight: bolder;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    /*background-color: rgba(255,0,0,0.25);*/
+    background-color: rgba(34,49,52,0.9);;
+    padding: 20px 20px;
+}
+
+.footer-logo{
+    font-weight: bold;
+    /*color: rgba(113, 79, 226, 0.551);*/
+    color:  rgba(241, 235, 235, 0.707);
+}
+
+footer p{
+    color:  rgba(241, 235, 235, 0.707);
+}
+
+/* calendar */
+
+table {
+    width: 100%;
+}
+table th {
+    background: #EEEEEE;
+}
+table th,
+table td {
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    padding: 5px;
+}
